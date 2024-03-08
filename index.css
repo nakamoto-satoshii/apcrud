@@ -1,0 +1,89 @@
+@font-face {
+   font-family: poppins;
+   src: url(./font/poppins.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.create{
+   padding: 20px 0px;
+   text-align: center;   
+   
+   margin: auto;
+   margin-top: 10rem;
+   min-width: 450px;
+   max-width: 550px;
+   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+   backdrop-filter: blur(8px);
+}
+form{
+   text-align: center;
+}
+
+body{
+   background-image: url('./img/desktop.png');
+}
+.navbar{
+   margin: 20px 0px;
+
+}
+a{
+   font-family: poppins;
+   font-weight: 800;
+   color: white;
+   padding: 20px;
+   text-decoration: none;
+}
+
+p{
+   color:  white;
+   font-family: poppins ;
+}
+.txt{
+   font-family: poppins;
+   font-weight: 600;
+}
+.txtsmall{
+   font-family: poppins;
+   font-size: 16px;
+}
+.name, .email,.id{
+   height: 40px;
+   width: 20rem;
+   text-align: center;
+   margin: 10px;
+   font-family: poppins;
+}
+.time{
+   height: 40px;
+   width: 120px;
+   text-align: center;
+}
+
+.content{
+   max-width: 300px;
+   max-height: 300px;
+   min-width: 100px;
+   min-height:150px ;
+}
+
+button{
+   height: 40px;
+   width: 80px;
+   margin: 10px;
+   box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(16px);
+   background-color: transparent;
+   color: white;
+   font-family:poppins ;
+}
+
+#data-container>div{
+   color: white;
+   font-family: poppins;
+}
+textarea{
+   font-family: poppins;
+   font-size: 16px;
+}
