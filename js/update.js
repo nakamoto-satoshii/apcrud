@@ -79,7 +79,7 @@ getid.addEventListener('click',()=>{
              form.appendChild(txtp);
              
              let textarea = document.createElement('textarea');
-             textarea.setAttribute('rows','10');
+             textarea.setAttribute('rows','40');
              textarea.setAttribute('name','content');
              textarea.setAttribute('class','content');
              textarea.value = data[0].content;

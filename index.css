@@ -62,7 +62,9 @@ p{
 }
 
 .content{
-   max-width: 300px;
+   width: 490px;
+   height: 226px;
+   max-width: 490px;
    max-height: 300px;
    min-width: 100px;
    min-height:150px ;
